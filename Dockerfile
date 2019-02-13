@@ -4,11 +4,11 @@ WORKDIR /usr/src/app
 
 COPY package.json ./
 COPY package-lock.json ./
-COPY date_calc ./
+COPY main ./
 COPY *.js ./
 
 RUN npm install
 
-RUN chmod +x ./date_calc
+RUN chmod +x ./main
 
-ENTRYPOINT [ "./date_calc" ]
+ENTRYPOINT [ "./main" ]

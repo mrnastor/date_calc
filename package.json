@@ -1,16 +1,17 @@
 {
-  "name": "snug_challenge",
+  "name": "date_calc",
   "version": "0.0.1",
-  "description": "A date calculator",
+  "description": "A date interval calculator",
   "main": "date_calc",
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "Mark Benson Nastor",
   "license": "ISC",
