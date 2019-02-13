@@ -52,11 +52,9 @@ if( program.args.length >= 2 ) {
     } while(compareDates(finalDate, toDate) !== 0);
 
     printResult(program.args[0], program.args[1], totalDays - 2);
-    return;
+    process.exit();
   }
-  
-  program.help();
-} else {
-  program.help();
-}
+} 
+
+program.help();
 
