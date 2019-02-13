@@ -18,7 +18,8 @@ module.exports = {
 
     // Check for invalid dates
     if(
-      dateObj.date > module.exports.getDaysInMonth(dateObj.month, dateObj.year) 
+      dateObj.date < 1
+      || dateObj.date > module.exports.getDaysInMonth(dateObj.month, dateObj.year) 
       || dateObj.month < 1 
       || dateObj.month > 12
     ) {
