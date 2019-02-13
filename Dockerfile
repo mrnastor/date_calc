@@ -9,4 +9,6 @@ COPY *.js ./
 
 RUN npm install
 
+RUN chmod +x ./date_calc
+
 ENTRYPOINT [ "./date_calc" ]
