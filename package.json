@@ -6,7 +6,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "mocha": "^5.2.0"
   },
   "devDependencies": {},
